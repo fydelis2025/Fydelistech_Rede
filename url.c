@@ -17,7 +17,7 @@ int main(){
 
     // 2. Resolver o domínio para obter o IP
     // Substitua pelo seu domínio ou qualquer URL (sem o http://)
-    if (getaddrinfo("adielfontes.blogspot.com", "80", &hints, &res) != 0) {
+    if (getaddrinfo("coloca_uma_url_valida", "80", &hints, &res) != 0) {
         perror("Erro ao resolver o domínio (DNS)");
         return 1;
     }
